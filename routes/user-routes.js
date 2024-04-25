@@ -4,8 +4,8 @@ import { getAllUsers } from '../controllers/user-controller.js';
 const router = express.Router();
 
 router.get('/', getAllUsers);
-router.post("/signup", req, res, next =>{
-    
+router.post("/signup", (req, res, next) =>{
+
 })
 
 export default router;
